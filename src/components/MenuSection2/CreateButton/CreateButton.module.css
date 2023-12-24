@@ -1,0 +1,48 @@
+.CreateButton {
+    width: 130px;
+    height: 40px;
+    
+    background: rgba(31, 14, 222, 0.76);
+    border-radius: 7px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-right: 50px;
+}
+.enter {
+    font-size: 21px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.CreateButton .active {
+    font-size: 21px;
+    text-decoration: none;
+    color: red;
+}
+
+@media (max-width: 991px ) {
+    .CreateButton {
+        width: 110px;
+        font-size: 24px;
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 767px ) {
+    .CreateButton {
+        width: 90px;
+        font-size: 20px;
+        margin-right: 20px;
+        height: 35px;
+    }
+    .enter {
+        font-size: 18px;
+    }
+    .CreateButton .active {
+        font-size: 18px;
+    }
+    
+}

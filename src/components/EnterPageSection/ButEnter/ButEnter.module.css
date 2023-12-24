@@ -1,0 +1,28 @@
+.but {
+    position: absolute;
+    z-index: 30;
+    top: 77%;
+    left: 42%;
+    width: 150px;
+    height: 53px;
+
+    background: rgba(0, 26, 255, 0.91);
+    border-radius: 6px;
+    border: none;
+    font-weight: 600;
+    font-size: 28px;
+    color: #FFFFFF;
+    margin-right: 64px;
+}
+
+
+@media (max-width: 991px ) {
+    .but {
+        top: 80%;
+        left: 38%;
+        width: 130px;
+        height: 45px;
+        font-size: 26px;
+    }
+    
+}

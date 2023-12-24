@@ -1,0 +1,189 @@
+.termDef { 
+
+    width: 100%;
+
+}
+
+.container {
+
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(0, 9, 95, 0.88);
+
+}
+
+.red {
+    color: red;
+    font-size: 18px;
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+.newR {
+
+    margin-left: 110px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.main_section {
+
+    min-height: 760px;
+    overflow: hidden;
+}
+
+
+.p {
+    font-size: 28px;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+    /* margin-left: 70px; */
+}
+
+.CreateButton {
+    width: 130px;
+    height: 50px;
+    
+    background: rgba(31, 14, 222, 0.76);
+    border-radius: 6px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    
+}
+.enter {
+    font-size: 21px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.CreateButton .active {
+    font-size: 21px;
+    text-decoration: none;
+    color: white;
+}
+
+.CreateButton:hover {
+    background: rgba(20, 8, 148, 0.76);
+}
+
+.div1 {
+
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.div2 {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin-bottom: 60px;
+}
+
+.maindiv {
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+    width: 1000px;
+
+}
+
+
+.but {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+
+
+@media (max-width: 1199px) {
+
+    .maindiv {
+        width: 900px;
+    }
+
+}
+
+
+@media (max-width: 991px) {
+
+    .maindiv {
+        width: 700px;
+    }
+}
+
+@media (max-width: 767px) {
+    .p {
+        font-size: 24px;
+    }
+    .maindiv {
+        width: 500px;
+        margin-left: 20px;
+    }
+    .red {
+        font-size: 14px;
+        margin-bottom: 15px;
+        width: 95%;
+    }
+    
+    .div2 {
+        width: 500px;
+
+    }
+
+}
+
+
+@media (max-width: 575px) {
+    
+    .maindiv {
+        width: 400px;
+        margin-left: 20px;
+    }
+
+    .red {
+        font-size: 14px;
+        margin-bottom: 15px;
+        width: 95%;
+    }
+    .div2 {
+        width: 400px;
+
+    }
+}
+
+
+@media (max-width: 460px) {
+    
+    .maindiv {
+        width: 200px;
+        margin-bottom: 50px;
+        margin-left: 20px;
+      
+    }
+    .red {
+        font-size: 14px;
+        margin-bottom: 15px;
+        width: 95%;
+    }
+    .div2 {
+        width: 290px;
+
+    }
+
+}

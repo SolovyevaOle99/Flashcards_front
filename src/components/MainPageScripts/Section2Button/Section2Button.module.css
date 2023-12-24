@@ -1,0 +1,69 @@
+.button {
+    width: 159px;
+    height: 79px;
+
+    background: rgba(20, 0, 255, 0.63);
+    border-radius: 15px;
+    border: none;
+    
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.nav {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.button .active {
+    text-decoration: none;
+    color: red;
+}
+
+.button .nav:hover {
+
+    color: red;
+}
+
+@media (max-width: 1199px ) {
+    .button {
+        width: 149px;
+        height: 59px;
+        font-size: 28px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .button {
+        width: 129px;
+        height: 49px;
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 767px ) {
+    .button {
+        width: 100px;
+        height: 36px;
+        border-radius: 8px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 460px) {
+
+    .button {
+        width: 100px;
+        height: 36px;
+        border-radius: 8px;
+        font-size: 20px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+    } 
+
+}
+

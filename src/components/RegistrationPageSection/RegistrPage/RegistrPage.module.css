@@ -1,0 +1,245 @@
+.photo {
+    width: 100%;
+    height: 1200px;
+    background: url(../../../img/studying.png) center/cover no-repeat;
+    position: relative;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    min-height: 100px;
+    overflow: hidden;
+
+}
+
+.a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+.inputs {
+    width: 672px;
+    display: flex;
+    height: 550px;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: absolute;
+    z-index: 20;
+    padding-top: 148px;
+    padding-left: 120px;
+}
+
+.red {
+    color: red;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.blue {
+    width: 100%;
+    height: 1200px;
+    position: absolute;
+    z-index: 10;
+    background: rgba(74, 81, 244, 0.39);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.black {
+    position: absolute;
+    z-index: 15;
+    width: 672px;
+    height: 1150px;
+
+    background: rgba(27, 27, 50, 0.773);
+    border-radius: 42px;
+    display: flex;
+    justify-content: center;
+}
+
+.enter {
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFFFFF;
+    padding-top: 68px;
+}
+
+.birthday {
+    width: 101px;
+    height: 55px;
+    border: none;
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 15px;
+    color: rgba(255, 255, 255, 0.63);
+    margin-right: 40px;
+}
+.birthday:last-child {
+    margin-right: 0px;
+}
+
+.data {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+.Button_registr {
+    width: 298px;
+    height: 55px;
+    position: absolute;
+    top: 83%;
+    background: rgba(2, 21, 195, 0.91);
+    border-radius: 6px;
+    border: none;
+
+    font-weight: 600;
+    font-size: 24px;
+
+    color: #ffffffd4;
+}
+.Button_registr:hover {
+    background: rgba(0, 26, 255, 0.91);
+    color: #ffffff;
+}
+
+.err {
+    position: relative;
+    top: 82%;
+    right: 10%;
+    right: 25%;
+    font-weight: 600;
+    font-size: 20px;
+    color: red;
+    z-index: 100;
+}
+
+
+
+@media (max-width: 1199px ) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px ) {
+    .container {
+        width: 100%;
+    }
+    
+    .black {
+        width: 582px;
+        height: 1050px;
+    }
+    .Button_registr {
+        width: 230px;
+        height: 48px;
+        top: 90%;
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 767px ) {
+    .container {
+        width: 100%;
+    }
+
+    .black {
+        width: 452px;
+        height: 1050px;
+    }
+
+    .enter {
+        font-size: 26px;
+        padding-top: 60px;
+    }
+
+    .inputs {
+        width: 672px;
+        height: 550px;
+        padding-top: 148px;
+        padding-left: 170px;
+    }
+
+    .birthday {
+        width: 95px;
+        height: 50px;
+        font-size: 18px;
+        padding-left: 15px;
+        margin-right: 25px;
+    }
+
+    .Button_registr {
+        width: 230px;
+        height: 48px;
+        top: 88%;
+        font-size: 18px;
+    }
+}
+
+
+
+@media (max-width: 575px ) {
+    .container {
+        width: 100%;
+    }
+            
+    .black {
+        width: 352px;
+        height: 1050px;
+    }
+
+    .enter {
+        font-size: 26px;
+        padding-top: 60px;
+    }
+
+   
+    .Button_registr {
+        width: 230px;
+        height: 48px;
+        top: 90%;
+        font-size: 18px;
+    }
+    .red {
+        margin-left: 20px;
+        width: 300px;
+    }
+  
+}
+
+@media (max-width: 460px ) {
+
+    .container {
+        width: 100%;
+    }
+    .enter {
+        font-size: 20px;
+        padding-top: 60px;
+    }
+            
+    .black {
+        width: 252px;
+        height: 1080px;
+    }
+
+    .Button_registr {
+        width: 200px;
+        height: 48px;
+        top: 90%;
+        font-size: 16px;
+    }
+    .red {
+        margin-left: 60px;
+        width: 220px;
+        font-size: 15px;
+    }
+}

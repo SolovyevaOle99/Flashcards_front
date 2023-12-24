@@ -1,0 +1,47 @@
+.img {
+    width: 563px;
+    height: 700px;
+
+    border-radius: 69px;
+}
+
+
+@media (max-width: 1199px ) {
+    .img {
+        width: 403px;
+        height: 500px;
+    }
+}
+
+@media (max-width: 991px) {
+    .img {
+        width: 333px;
+        height: 420px;
+    }
+}
+
+@media (max-width: 767px ) {
+    .img {
+        width: 260px;
+        height: 340px;
+    }
+}
+
+@media (max-width: 575px ) {
+
+    .img {
+        width: 200px;
+        height: 340px;
+    }
+
+}
+
+
+@media (max-width: 460px) {
+
+    .img {
+        width: 250px;
+        height: 340px;
+        margin-left: 40px;
+    }
+}

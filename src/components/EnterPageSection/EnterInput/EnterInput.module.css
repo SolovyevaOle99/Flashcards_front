@@ -1,0 +1,127 @@
+.p {
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+    z-index: 30;
+}
+.red {
+    color: red;
+    font-size: 18px;
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+.input {
+    width: 435px;
+    height: 70px;
+    padding-left: 20px;
+
+    background: rgba(17, 22, 125, 0.305);
+    border-radius: 7px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 7px solid #371b83;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 20;
+    
+    font-weight: 600;
+    font-size: 26px;
+    color: rgba(255, 255, 255, 0.63);
+}
+
+.input::placeholder {
+    font-weight: 600;
+    font-size: 18px;
+
+    color: rgba(255, 255, 255, 0.25);
+    padding-left: 7px;
+}
+
+.err {
+    position: relative;
+    top: 26%;
+    left: 0%;
+    right: 25%;
+    font-weight: 600;
+    font-size: 20px;
+    color: red;
+    z-index: 100;
+}
+
+
+
+@media (max-width: 991px ) {
+    .input {
+        width: 345px;
+        height: 60px;
+    }
+    .input::placeholder {
+        font-weight: 600;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+
+    .p {
+        font-size: 18px;
+    }
+    .red {
+        width: 70%;
+        color: red;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .err {
+        position: relative;
+        top: 23%;
+        left: 0%;
+        right: 25%;
+        font-weight: 600;
+        font-size: 20px;
+        color: red;
+        z-index: 100;
+    }
+    
+    
+}
+
+@media (max-width: 767px ) {
+    .input {
+        width: 315px;
+        height: 60px;
+    }
+    .input::placeholder {
+        font-weight: 600;
+        font-size: 18px;
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 460px ) {
+
+    .input {
+        width: 215px;
+        height: 60px;
+        margin-left: 70px;
+        padding-left: 5px;
+    }
+    .input::placeholder {
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .p {
+        font-size: 22px;
+        margin-left: 70px;
+        margin-bottom: 18px;
+        z-index: 30;
+    }
+    .red {
+        font-size: 18px;
+        margin-bottom: 15px;
+        width: 40%;
+        margin-left: 70px;
+    }
+    
+}

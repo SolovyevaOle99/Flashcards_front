@@ -1,0 +1,74 @@
+.button {
+  position: absolute;
+  z-index: 10;
+  left: 61%;
+  top: 65%;
+
+  width: 323px;
+  height: 83px;
+
+  background: #fa0000;
+  border-radius: 6px;
+  border: none;
+
+  font-weight: 600;
+  font-size: 26px;
+  text-align: center;
+
+  color: #fcf1f1;
+}
+
+.button .nav:hover {
+  color: rgba(149, 82, 231, 0.46);
+}
+
+.button a {
+  text-decoration: none;
+  color: #fcf1f1;
+}
+
+@media (max-width: 1199px) {
+  .button {
+    left: 51%;
+    top: 65%;
+  }
+}
+
+@media (max-width: 991px) {
+  .button {
+    left: 51%;
+    top: 62%;
+
+    width: 243px;
+    height: 60px;
+    font-size: 20px;
+
+  }
+}
+
+@media (max-width: 767px) {
+  .button {
+    left: 53%;
+    top: 65%;
+    width: 185px;
+    height: 50px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 575px) {
+
+  .button {
+    left: 44%;
+    top: 48%;
+  }
+}
+
+
+@media (max-width: 460px) {
+
+  .button {
+    left: 19%;
+    top: 48%;
+  }
+}

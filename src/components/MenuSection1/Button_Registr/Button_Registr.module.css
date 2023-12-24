@@ -1,0 +1,76 @@
+.Button_registr {
+    width: 218px;
+    height: 47px;
+
+    background: rgba(2, 21, 195, 0.91);
+    color: #ffffffd4;
+    border-radius: 6px;
+    border: none;
+
+    font-weight: 600;
+    font-size: 24px;
+}
+.enter {
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #ffffffd4;
+}
+
+.Button_registr .active {
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 600;
+    color: red;
+}
+
+
+.enter:hover {
+    color: #FFFFFF;
+}
+
+.Button_registr:hover {
+    font-size: 24px;
+    text-decoration: none;
+    background: rgba(0, 26, 255, 0.91);
+    font-weight: 600;
+    
+}
+
+@media (max-width: 1199px ) {
+    .Button_registr{
+        width: 180px;
+        height: 40px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 991px ) {
+    .Button_registr {
+        width: 160px;
+        height: 38px;
+        font-size: 16px;
+    }
+
+    .enter {
+        font-size: 20px;
+    }
+    .Button_registr .active {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 767px ) {
+    .Button_registr {
+        width: 130px;
+        height: 28px;
+        font-size: 16px;
+    }
+
+    .enter {
+        font-size: 15px;
+    }
+    .Button_registr .active {
+        font-size: 16px;
+    }
+}
